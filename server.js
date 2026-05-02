@@ -10,6 +10,7 @@ const app = express();
 // CORS - allow frontend Railway URL and localhost
 const allowedOrigins = [
   'http://localhost:3000',
+  'https://task-manager-projecttfrontend-production.up.railway.app',
   process.env.FRONTEND_URL,
 ].filter(Boolean);
 
